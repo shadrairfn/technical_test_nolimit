@@ -1,0 +1,4861 @@
+[
+  {
+    "id": "1780946641790",
+    "timestamp": 1780946641790,
+    "request": {
+      "id": "1780946641781",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: Request with GET/HEAD method cannot have body.",
+      "time": 5,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780946646141",
+    "timestamp": 1780946646141,
+    "request": {
+      "id": "1780946646101",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 404,
+      "statusText": "Not Found",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1041",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:24:06 GMT",
+        "etag": "W/\"411-8aKf29c9qiFaRHvFdLt8+oYrMwU\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Not Found - /api/v1/user/register\",\"stack\":\"Error: Not Found - /api/v1/user/register\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/index.js:35:17\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at trimPrefix (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:342:13)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:297:9\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\\n    at logger (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\morgan\\\\index.js:170:5)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at trimPrefix (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:342:13)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:297:9\"}",
+      "time": 37,
+      "size": 1041,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780946736300",
+    "timestamp": 1780946736300,
+    "request": {
+      "id": "1780946736287",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 404,
+      "statusText": "Not Found",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1041",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:25:36 GMT",
+        "etag": "W/\"411-8aKf29c9qiFaRHvFdLt8+oYrMwU\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Not Found - /api/v1/user/register\",\"stack\":\"Error: Not Found - /api/v1/user/register\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/index.js:35:17\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at trimPrefix (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:342:13)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:297:9\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\\n    at logger (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\morgan\\\\index.js:170:5)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at trimPrefix (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:342:13)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:297:9\"}",
+      "time": 10,
+      "size": 1041,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780946959244",
+    "timestamp": 1780946959244,
+    "request": {
+      "id": "1780946959221",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1154",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:29:19 GMT",
+        "etag": "W/\"482-ra1ocg6PLbMuy26Jj3ut4ycyx84\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Cannot destructure property 'username' of 'req.body' as it is undefined.\",\"stack\":\"TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:12:13\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 20,
+      "size": 1154,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780946966191",
+    "timestamp": 1780946966191,
+    "request": {
+      "id": "1780946966180",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1154",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:29:26 GMT",
+        "etag": "W/\"482-ra1ocg6PLbMuy26Jj3ut4ycyx84\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Cannot destructure property 'username' of 'req.body' as it is undefined.\",\"stack\":\"TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:12:13\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 8,
+      "size": 1154,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947027997",
+    "timestamp": 1780947027997,
+    "request": {
+      "id": "1780947027971",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1154",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:30:27 GMT",
+        "etag": "W/\"482-ra1ocg6PLbMuy26Jj3ut4ycyx84\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Cannot destructure property 'username' of 'req.body' as it is undefined.\",\"stack\":\"TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:12:13\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 23,
+      "size": 1154,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947029408",
+    "timestamp": 1780947029408,
+    "request": {
+      "id": "1780947029396",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1154",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:30:29 GMT",
+        "etag": "W/\"482-ra1ocg6PLbMuy26Jj3ut4ycyx84\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Cannot destructure property 'username' of 'req.body' as it is undefined.\",\"stack\":\"TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:12:13\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 9,
+      "size": 1154,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947030305",
+    "timestamp": 1780947030305,
+    "request": {
+      "id": "1780947030296",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1154",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:30:30 GMT",
+        "etag": "W/\"482-ra1ocg6PLbMuy26Jj3ut4ycyx84\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Cannot destructure property 'username' of 'req.body' as it is undefined.\",\"stack\":\"TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:12:13\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 7,
+      "size": 1154,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947030463",
+    "timestamp": 1780947030463,
+    "request": {
+      "id": "1780947030454",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1154",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:30:30 GMT",
+        "etag": "W/\"482-ra1ocg6PLbMuy26Jj3ut4ycyx84\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Cannot destructure property 'username' of 'req.body' as it is undefined.\",\"stack\":\"TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:12:13\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 7,
+      "size": 1154,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947030733",
+    "timestamp": 1780947030733,
+    "request": {
+      "id": "1780947030723",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1154",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:30:30 GMT",
+        "etag": "W/\"482-ra1ocg6PLbMuy26Jj3ut4ycyx84\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Cannot destructure property 'username' of 'req.body' as it is undefined.\",\"stack\":\"TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:12:13\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 7,
+      "size": 1154,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947060918",
+    "timestamp": 1780947060918,
+    "request": {
+      "id": "1780947060715",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"username\":\"shadra\",\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "170",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:31:00 GMT",
+        "etag": "W/\"aa-GbunbpN4GVoY9o/aGvlUJNXIM+o\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User registered successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"}}}",
+      "time": 200,
+      "size": 170,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947182047",
+    "timestamp": 1780947182047,
+    "request": {
+      "id": "1780947181928",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "169",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:33:02 GMT",
+        "etag": "W/\"a9-m4DS2aMjQvHwJMXHDOlZ3cr2tmk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"}}}",
+      "time": 116,
+      "size": 169,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947222936",
+    "timestamp": 1780947222936,
+    "request": {
+      "id": "1780947222788",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "169",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:33:42 GMT",
+        "etag": "W/\"a9-m4DS2aMjQvHwJMXHDOlZ3cr2tmk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"}}}",
+      "time": 145,
+      "size": 169,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947455440",
+    "timestamp": 1780947455440,
+    "request": {
+      "id": "1780947455290",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "578",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:37:35 GMT",
+        "etag": "W/\"242-nWY4gsUA87DUUfBWAl6yfYCkSug\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MDk0NzQ1NSwiZXhwIjoxNzgwOTQ4MzU1fQ.LTPRW1CoOy6y3i_zvpOZk33RCjTfWu7n30GWjvuSFiY\",\"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MDk0NzQ1NSwiZXhwIjoxNzgxNTUyMjU1fQ.-MWPiwUt35v-3AZYte-2OcsdwfAiWHCmgcPaRp2bJgw\"}}",
+      "time": 147,
+      "size": 578,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947509684",
+    "timestamp": 1780947509684,
+    "request": {
+      "id": "1780947509536",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "286",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:38:29 GMT",
+        "etag": "W/\"11e-aPkQAB9LmJEFzpECZnzAaNIQ4tw\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"accessToken is not defined\",\"stack\":\"ReferenceError: accessToken is not defined\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/userController.js:89:13\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\"}",
+      "time": 144,
+      "size": 286,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947533272",
+    "timestamp": 1780947533272,
+    "request": {
+      "id": "1780947533116",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "169",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:38:53 GMT",
+        "etag": "W/\"a9-m4DS2aMjQvHwJMXHDOlZ3cr2tmk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"}}}",
+      "time": 153,
+      "size": 169,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947554106",
+    "timestamp": 1780947554106,
+    "request": {
+      "id": "1780947553958",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "169",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:39:14 GMT",
+        "etag": "W/\"a9-m4DS2aMjQvHwJMXHDOlZ3cr2tmk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"}}}",
+      "time": 144,
+      "size": 169,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947591256",
+    "timestamp": 1780947591256,
+    "request": {
+      "id": "1780947591097",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "169",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:39:51 GMT",
+        "etag": "W/\"a9-m4DS2aMjQvHwJMXHDOlZ3cr2tmk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"}}}",
+      "time": 156,
+      "size": 169,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947601909",
+    "timestamp": 1780947601909,
+    "request": {
+      "id": "1780947601762",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "169",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:40:01 GMT",
+        "etag": "W/\"a9-m4DS2aMjQvHwJMXHDOlZ3cr2tmk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"}}}",
+      "time": 144,
+      "size": 169,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780947627438",
+    "timestamp": 1780947627438,
+    "request": {
+      "id": "1780947627292",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Mon, 08 Jun 2026 19:40:27 GMT",
+        "etag": "W/\"175-4K33TVEsGRFKOkUau+qTUmfdl1k\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MDk0NzYyNywiZXhwIjoxNzgwOTQ4NTI3fQ.2ttdsKQt3iM5vo9s80NA1SBw7TY6ADVTklUz85hKk0M\"}}",
+      "time": 143,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781108639242",
+    "timestamp": 1781108639242,
+    "request": {
+      "id": "1781108639060",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:23:59 GMT",
+        "etag": "W/\"175-2sFUrfxs3dmgPr8mczNFwtyY7Kw\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg\"}}",
+      "time": 177,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781108863567",
+    "timestamp": 1781108863567,
+    "request": {
+      "id": "1781108863420",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:27:43 GMT",
+        "etag": "W/\"175-yGV9MaifuwmuRSqibYI55vTvZa0\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODg2MywiZXhwIjoxNzgxMTA5NzYzfQ.ok4kwQ7M6JSvglkPWfihUW-9ZbMwOlrl0GI7ovf6An0\"}}",
+      "time": 144,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109083827",
+    "timestamp": 1781109083827,
+    "request": {
+      "id": "1781109083803",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "158",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:23 GMT",
+        "etag": "W/\"9e-U6cLQQMsH2qVNjyb2L47L9eZsx0\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"6e8df02c-50b2-4a0f-a705-47af1d39bc70\",\"content\":\"sama nasi mbg\",\"updatedAt\":\"2026-06-10T16:31:23.816Z\",\"createdAt\":\"2026-06-10T16:31:23.816Z\"}}",
+      "time": 20,
+      "size": 158,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109084027",
+    "timestamp": 1781109084027,
+    "request": {
+      "id": "1781109084007",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "158",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:24 GMT",
+        "etag": "W/\"9e-8Sm+PuXvfhn6MUhH3AmMPxMSUSA\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"0c61900c-3dfc-4f57-bab7-ed66bafb9aa6\",\"content\":\"sama nasi mbg\",\"updatedAt\":\"2026-06-10T16:31:24.017Z\",\"createdAt\":\"2026-06-10T16:31:24.017Z\"}}",
+      "time": 18,
+      "size": 158,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109084198",
+    "timestamp": 1781109084198,
+    "request": {
+      "id": "1781109084178",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "158",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:24 GMT",
+        "etag": "W/\"9e-4o6DpSct0ARPBGpQEoYv0k/5bBg\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"d7a5f850-940d-40d4-9afe-c89095f8462d\",\"content\":\"sama nasi mbg\",\"updatedAt\":\"2026-06-10T16:31:24.189Z\",\"createdAt\":\"2026-06-10T16:31:24.189Z\"}}",
+      "time": 17,
+      "size": 158,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109084354",
+    "timestamp": 1781109084354,
+    "request": {
+      "id": "1781109084335",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "158",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:24 GMT",
+        "etag": "W/\"9e-jc2cikMQ4YEGXvRHRcTVCve1APg\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"38e7a409-c37e-4429-8b07-22fa92327734\",\"content\":\"sama nasi mbg\",\"updatedAt\":\"2026-06-10T16:31:24.349Z\",\"createdAt\":\"2026-06-10T16:31:24.349Z\"}}",
+      "time": 17,
+      "size": 158,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109084509",
+    "timestamp": 1781109084509,
+    "request": {
+      "id": "1781109084493",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "158",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:24 GMT",
+        "etag": "W/\"9e-siDUVoLbRjpucZ9XYAHHfTJw3V8\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"f59261de-faf2-49a8-a370-51311739b81a\",\"content\":\"sama nasi mbg\",\"updatedAt\":\"2026-06-10T16:31:24.504Z\",\"createdAt\":\"2026-06-10T16:31:24.504Z\"}}",
+      "time": 14,
+      "size": 158,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109084644",
+    "timestamp": 1781109084644,
+    "request": {
+      "id": "1781109084628",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "158",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:24 GMT",
+        "etag": "W/\"9e-cBf5VtuY+kBMkZAmxshlIDkEnCY\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"de17dbcd-3dd3-41f6-ab8e-68f9bd1e33d4\",\"content\":\"sama nasi mbg\",\"updatedAt\":\"2026-06-10T16:31:24.639Z\",\"createdAt\":\"2026-06-10T16:31:24.639Z\"}}",
+      "time": 14,
+      "size": 158,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109084794",
+    "timestamp": 1781109084794,
+    "request": {
+      "id": "1781109084778",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "158",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:24 GMT",
+        "etag": "W/\"9e-GYt2fjk1BgbHRefdYSKwHGVbYB4\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"6ef3136d-d24c-4e5f-9427-51676a8e70bf\",\"content\":\"sama nasi mbg\",\"updatedAt\":\"2026-06-10T16:31:24.789Z\",\"createdAt\":\"2026-06-10T16:31:24.789Z\"}}",
+      "time": 13,
+      "size": 158,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109109203",
+    "timestamp": 1781109109203,
+    "request": {
+      "id": "1781109109152",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "206",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:31:49 GMT",
+        "etag": "W/\"ce-9v3IVHlr/RVL5FoiVI30bBgxrIg\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"f61c11ca-a26c-400f-92e5-ceb549071fd9\",\"content\":\"sama nasi mbg\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-10T16:31:49.183Z\",\"createdAt\":\"2026-06-10T16:31:49.183Z\"}}",
+      "time": 48,
+      "size": 206,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109229924",
+    "timestamp": 1781109229924,
+    "request": {
+      "id": "1781109229857",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "206",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:33:49 GMT",
+        "etag": "W/\"ce-P6Vq9z8uBva7Lg89GzN0GzytbNc\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"90785369-9a53-4529-9824-aa7375c75194\",\"content\":\"sama nasi mbg\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-10T16:33:49.887Z\",\"createdAt\":\"2026-06-10T16:33:49.887Z\"}}",
+      "time": 65,
+      "size": 206,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109242370",
+    "timestamp": 1781109242370,
+    "request": {
+      "id": "1781109242231",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:34:02 GMT",
+        "etag": "W/\"175-/Yxruf/sBODJzLUfiyaMHncFqm4\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwOTI0MiwiZXhwIjoxNzgxMTA5MzAyfQ.F64StS2hSgyQ3VvqLF-xLJVF2UrXCepEOpIqQah5RTU\"}}",
+      "time": 135,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109245806",
+    "timestamp": 1781109245806,
+    "request": {
+      "id": "1781109245771",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "206",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:34:05 GMT",
+        "etag": "W/\"ce-bAnjMk4Xfv/OudUe4YOJynQ0fr0\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"7c4bcabf-d712-40e8-bf89-4e511d7953e4\",\"content\":\"sama nasi mbg\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-10T16:34:05.780Z\",\"createdAt\":\"2026-06-10T16:34:05.780Z\"}}",
+      "time": 31,
+      "size": 206,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109374720",
+    "timestamp": 1781109374720,
+    "request": {
+      "id": "1781109374709",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: fetch failed",
+      "time": 7,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109457396",
+    "timestamp": 1781109457396,
+    "request": {
+      "id": "1781109457231",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:37:37 GMT",
+        "etag": "W/\"175-tJIPvlhnkB4TtNFaWyXCfobTAu8\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwOTQ1NywiZXhwIjoxNzgxMTA5NTE3fQ.Mk9orVqkOo9BUBat0YjRHYWZw5etJ61ZdrtzGMMYroE\"}}",
+      "time": 162,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109460960",
+    "timestamp": 1781109460960,
+    "request": {
+      "id": "1781109460943",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwODYzOSwiZXhwIjoxNzgxMTA5NTM5fQ.qKvVU6C9SvRBSaaeBgnXCuQfglW0qDtB6E-A9xNe-Cg"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "249",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:37:40 GMT",
+        "etag": "W/\"f9-K99kYkNlEUKkdJylgi4njCprcS4\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Unauthorized\",\"stack\":\"Error: Unauthorized\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/middlewares/authMiddleware.js:19:19\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\"}",
+      "time": 14,
+      "size": 249,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109469959",
+    "timestamp": 1781109469959,
+    "request": {
+      "id": "1781109469921",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwOTQ1NywiZXhwIjoxNzgxMTA5NTE3fQ.Mk9orVqkOo9BUBat0YjRHYWZw5etJ61ZdrtzGMMYroE",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwOTQ1NywiZXhwIjoxNzgxMTA5NTE3fQ.Mk9orVqkOo9BUBat0YjRHYWZw5etJ61ZdrtzGMMYroE"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "206",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:37:49 GMT",
+        "etag": "W/\"ce-/aZ9KUjECFzZyeIgS6Y7UMKixkk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"5a77cb8b-da36-4ad3-8429-058e6f195f50\",\"content\":\"sama nasi mbg\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-10T16:37:49.933Z\",\"createdAt\":\"2026-06-10T16:37:49.933Z\"}}",
+      "time": 35,
+      "size": 206,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781109571629",
+    "timestamp": 1781109571629,
+    "request": {
+      "id": "1781109571604",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwOTQ1NywiZXhwIjoxNzgxMTA5NTE3fQ.Mk9orVqkOo9BUBat0YjRHYWZw5etJ61ZdrtzGMMYroE",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTEwOTQ1NywiZXhwIjoxNzgxMTA5NTE3fQ.Mk9orVqkOo9BUBat0YjRHYWZw5etJ61ZdrtzGMMYroE"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1028",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:39:31 GMT",
+        "etag": "W/\"404-mPp1PjRfV27uq0V2s6/JBqchhgQ\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"jwt expired\",\"stack\":\"Error: jwt expired\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/middlewares/authMiddleware.js:28:15\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:291:5)\"}",
+      "time": 22,
+      "size": 1028,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781110138009",
+    "timestamp": 1781110138009,
+    "request": {
+      "id": "1781110137854",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:48:58 GMT",
+        "etag": "W/\"175-A6+5GxX4ZEZzEZGubOnORGc0F0U\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDEzNywiZXhwIjoxNzgxMTEwMTk3fQ.LcOwHhYh7gPLvByas5LB-JGU5DxdwOlWci4dNiM-C1A\"}}",
+      "time": 152,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781110362385",
+    "timestamp": 1781110362385,
+    "request": {
+      "id": "1781110362229",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:52:42 GMT",
+        "etag": "W/\"175-+VgC2snJjYXbXeXXmEqM6ZolBTM\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDM2MiwiZXhwIjoxNzgxMTEwNDIyfQ.itW6Qdf2BLMA-FC5y6AW4NrT2skjLp4JKelNizvjm24\"}}",
+      "time": 153,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781110501054",
+    "timestamp": 1781110501054,
+    "request": {
+      "id": "1781110500900",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 16:55:01 GMT",
+        "etag": "W/\"175-IPsf+EVX5eEPCl1orV4fN/h6ucU\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw\"}}",
+      "time": 151,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112069990",
+    "timestamp": 1781112069990,
+    "request": {
+      "id": "1781112069954",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:21:09 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 33,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112107039",
+    "timestamp": 1781112107039,
+    "request": {
+      "id": "1781112106996",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:21:47 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 39,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112123624",
+    "timestamp": 1781112123624,
+    "request": {
+      "id": "1781112123585",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:22:03 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 36,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112157047",
+    "timestamp": 1781112157047,
+    "request": {
+      "id": "1781112157006",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:22:37 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 37,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112195340",
+    "timestamp": 1781112195340,
+    "request": {
+      "id": "1781112195299",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:23:15 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 37,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112220780",
+    "timestamp": 1781112220780,
+    "request": {
+      "id": "1781112220740",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:23:40 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 36,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112305396",
+    "timestamp": 1781112305396,
+    "request": {
+      "id": "1781112305337",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMDUwMSwiZXhwIjoxNzgxMTEwNTYxfQ.cEQX_J5qpJdgz1TGJ_K6tsyhhQh9gHrWjRAIRaU9vaw"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:25:05 GMT",
+        "etag": "W/\"105-w1Pjg9tssTvaRo1QCvrYVDTxers\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU\"}",
+      "time": 55,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112438819",
+    "timestamp": 1781112438819,
+    "request": {
+      "id": "1781112438767",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:27:18 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 47,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112480806",
+    "timestamp": 1781112480806,
+    "request": {
+      "id": "1781112480761",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:28:00 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 41,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112502109",
+    "timestamp": 1781112502109,
+    "request": {
+      "id": "1781112502068",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:28:22 GMT",
+        "etag": "W/\"105-bSApP3jOYhdY4MnEEz1EVVDgFTo\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjUwMiwiZXhwIjoxNzgxMTEyNTYyfQ.2oviLS6PlZi0JlPGHdUhBhgU6Q_amNwgWaseF8quSZg\"}",
+      "time": 37,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112536555",
+    "timestamp": 1781112536555,
+    "request": {
+      "id": "1781112536506",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "54",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:28:56 GMT",
+        "etag": "W/\"36-KkMBnEz9nIvM468BtlYy5kBhtIQ\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Session expired or invalid\"}",
+      "time": 45,
+      "size": 54,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112579583",
+    "timestamp": 1781112579583,
+    "request": {
+      "id": "1781112579519",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:29:39 GMT",
+        "etag": "W/\"105-qJzxJEqI7wcixKrhnicTzc9T+uM\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjU3OSwiZXhwIjoxNzgxMTEyNjM5fQ.0Mq59yDOjFLY_RjLADPbdxWOa_-1fbRReZmucMR5Zno\"}",
+      "time": 60,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112645101",
+    "timestamp": 1781112645101,
+    "request": {
+      "id": "1781112645052",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "53",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:30:45 GMT",
+        "etag": "W/\"35-XMsY+ppXM4NCX2b97CXWJ8ozU3M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Unauthorized: Token verification failed\"}",
+      "time": 45,
+      "size": 53,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781112999953",
+    "timestamp": 1781112999953,
+    "request": {
+      "id": "1781112999910",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjMwNSwiZXhwIjoxNzgxMTEyMzY1fQ.Woe0tCx4GKlUktlVqKqjU5Z6UqhymAy95sFwHnOgquU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:36:39 GMT",
+        "etag": "W/\"105-XnS53K2czICjMdFHXlPRhWLHyMk\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjk5OSwiZXhwIjoxNzgxMTEzMDU5fQ.UIp1_1SwopoN4UMSFd0TzFC993cTb-7wqg3Ol6dqw2E\"}",
+      "time": 40,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113007336",
+    "timestamp": 1781113007336,
+    "request": {
+      "id": "1781113007319",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjk5OSwiZXhwIjoxNzgxMTEzMDU5fQ.UIp1_1SwopoN4UMSFd0TzFC993cTb-7wqg3Ol6dqw2E",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjk5OSwiZXhwIjoxNzgxMTEzMDU5fQ.UIp1_1SwopoN4UMSFd0TzFC993cTb-7wqg3Ol6dqw2E"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "803",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:36:47 GMT",
+        "etag": "W/\"323-CqeRZqt3eDy9tU5koy3Nb8Av9wE\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"posts\":[{\"id\":\"5a77cb8b-da36-4ad3-8429-058e6f195f50\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:37:49.000Z\",\"updatedAt\":\"2026-06-10T16:37:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"7c4bcabf-d712-40e8-bf89-4e511d7953e4\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:34:05.000Z\",\"updatedAt\":\"2026-06-10T16:34:05.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"90785369-9a53-4529-9824-aa7375c75194\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:33:49.000Z\",\"updatedAt\":\"2026-06-10T16:33:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"f61c11ca-a26c-400f-92e5-ceb549071fd9\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:31:49.000Z\",\"updatedAt\":\"2026-06-10T16:31:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}]}",
+      "time": 13,
+      "size": 803,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113022047",
+    "timestamp": 1781113022047,
+    "request": {
+      "id": "1781113022012",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjk5OSwiZXhwIjoxNzgxMTEzMDU5fQ.UIp1_1SwopoN4UMSFd0TzFC993cTb-7wqg3Ol6dqw2E",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjk5OSwiZXhwIjoxNzgxMTEzMDU5fQ.UIp1_1SwopoN4UMSFd0TzFC993cTb-7wqg3Ol6dqw2E"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "803",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:37:02 GMT",
+        "etag": "W/\"323-CqeRZqt3eDy9tU5koy3Nb8Av9wE\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"posts\":[{\"id\":\"5a77cb8b-da36-4ad3-8429-058e6f195f50\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:37:49.000Z\",\"updatedAt\":\"2026-06-10T16:37:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"7c4bcabf-d712-40e8-bf89-4e511d7953e4\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:34:05.000Z\",\"updatedAt\":\"2026-06-10T16:34:05.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"90785369-9a53-4529-9824-aa7375c75194\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:33:49.000Z\",\"updatedAt\":\"2026-06-10T16:33:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"f61c11ca-a26c-400f-92e5-ceb549071fd9\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:31:49.000Z\",\"updatedAt\":\"2026-06-10T16:31:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}]}",
+      "time": 31,
+      "size": 803,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113177829",
+    "timestamp": 1781113177829,
+    "request": {
+      "id": "1781113177807",
+      "name": "New Request",
+      "method": "PATCH",
+      "url": "http://localhost:5000/api/v1/post/f61c11ca-a26c-400f-92e5-ceb549071fd9",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"makan sama prabowo kontol\"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1083",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:39:37 GMT",
+        "etag": "W/\"43b-8QRuMfnjfy6DGRTnrY2CyswvyPg\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Authorization token required\",\"stack\":\"Error: Authorization token required\\n    at verifyJWT (file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/middlewares/authMiddleware.js:10:13)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:295:15\\n    at param (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:600:14)\\n    at param (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:610:14)\\n    at processParams (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:664:3)\"}",
+      "time": 19,
+      "size": 1083,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113192627",
+    "timestamp": 1781113192627,
+    "request": {
+      "id": "1781113192588",
+      "name": "New Request",
+      "method": "PATCH",
+      "url": "http://localhost:5000/api/v1/post/f61c11ca-a26c-400f-92e5-ceb549071fd9",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjk5OSwiZXhwIjoxNzgxMTEzMDU5fQ.UIp1_1SwopoN4UMSFd0TzFC993cTb-7wqg3Ol6dqw2E",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"makan sama prabowo kontol\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMjk5OSwiZXhwIjoxNzgxMTEzMDU5fQ.UIp1_1SwopoN4UMSFd0TzFC993cTb-7wqg3Ol6dqw2E"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:39:52 GMT",
+        "etag": "W/\"105-E/CkHU8IirJjHbuqTM7AkJAfc7M\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I\"}",
+      "time": 36,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113197730",
+    "timestamp": 1781113197730,
+    "request": {
+      "id": "1781113197719",
+      "name": "New Request",
+      "method": "PATCH",
+      "url": "http://localhost:5000/api/v1/post/f61c11ca-a26c-400f-92e5-ceb549071fd9",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"makan sama prabowo kontol\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1089",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:39:57 GMT",
+        "etag": "W/\"441-VrxZVKznyO80l8+Dr33vE6cIqX0\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"All fields are required\",\"stack\":\"Error: All fields are required\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/postController.js:40:32\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/utils/asyncHandler.js:3:25\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at verifyJWT (file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/middlewares/authMiddleware.js:18:7)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\"}",
+      "time": 8,
+      "size": 1089,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113204845",
+    "timestamp": 1781113204845,
+    "request": {
+      "id": "1781113204798",
+      "name": "New Request",
+      "method": "PATCH",
+      "url": "http://localhost:5000/api/v1/post/f61c11ca-a26c-400f-92e5-ceb549071fd9",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"makan sama prabowo kontol\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "12",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:40:04 GMT",
+        "etag": "W/\"c-lOW93MOqzEjrhqp5A2J2E3Yqehg\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":[1]}",
+      "time": 43,
+      "size": 12,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113234773",
+    "timestamp": 1781113234773,
+    "request": {
+      "id": "1781113234716",
+      "name": "New Request",
+      "method": "PATCH",
+      "url": "http://localhost:5000/api/v1/post/f61c11ca-a26c-400f-92e5-ceb549071fd9",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"makan sama prabowo kontol\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "83",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:40:34 GMT",
+        "etag": "W/\"53-4yvrj4WjyDdxKtST/0NI1VyCYeg\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"content\":\"makan sama prabowo kontol\",\"id\":\"f61c11ca-a26c-400f-92e5-ceb549071fd9\"}",
+      "time": 54,
+      "size": 83,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113248844",
+    "timestamp": 1781113248844,
+    "request": {
+      "id": "1781113248808",
+      "name": "New Request",
+      "method": "DELETE",
+      "url": "http://localhost:5000/api/v1/post/f61c11ca-a26c-400f-92e5-ceb549071fd9",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": ""
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "10",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:40:48 GMT",
+        "etag": "W/\"a-J0pHSzBK88N56Ak7LHd8TfCJtig\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":1}",
+      "time": 33,
+      "size": 10,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113274857",
+    "timestamp": 1781113274857,
+    "request": {
+      "id": "1781113274810",
+      "name": "New Request",
+      "method": "DELETE",
+      "url": "http://localhost:5000/api/v1/post/90785369-9a53-4529-9824-aa7375c75194",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": ""
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:41:14 GMT",
+        "etag": "W/\"105-in79BVNHePM9FVwj/FXbMZaK01Y\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzI3NCwiZXhwIjoxNzgxMTEzMzM0fQ.4XQfZxsSYBPkSd18Gzb2_NoysgMaPEdb_zpep0SEJDU\"}",
+      "time": 43,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113280540",
+    "timestamp": 1781113280540,
+    "request": {
+      "id": "1781113280525",
+      "name": "New Request",
+      "method": "DELETE",
+      "url": "http://localhost:5000/api/v1/post/90785369-9a53-4529-9824-aa7375c75194",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzI3NCwiZXhwIjoxNzgxMTEzMzM0fQ.4XQfZxsSYBPkSd18Gzb2_NoysgMaPEdb_zpep0SEJDU"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzE5MiwiZXhwIjoxNzgxMTEzMjUyfQ.5Jv9Hk1mLt2Ac_TQ6Hxw3ge_jhAQqpl73ong3ETwt3I"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "1003",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:41:20 GMT",
+        "etag": "W/\"3eb-LB5xE1vITk9aXaQj6FLBM1SVEa4\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Unexpected token 'e', \\\"eyJhbGciOi\\\"... is not valid JSON\",\"stack\":\"SyntaxError: Unexpected token 'e', \\\"eyJhbGciOi\\\"... is not valid JSON\\n    at JSON.parse (<anonymous>)\\n    at createStrictSyntaxError (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\body-parser\\\\lib\\\\types\\\\json.js:109:10)\\n    at parse (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\body-parser\\\\lib\\\\types\\\\json.js:66:15)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\body-parser\\\\lib\\\\read.js:162:18\\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\\n    at invokeCallback (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\raw-body\\\\index.js:238:16)\\n    at done (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\raw-body\\\\index.js:227:7)\\n    at IncomingMessage.onEnd (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\raw-body\\\\index.js:287:7)\\n    at IncomingMessage.emit (node:events:518:28)\\n    at endReadableNT (node:internal/streams/readable:1698:12)\"}",
+      "time": 12,
+      "size": 1003,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781113290182",
+    "timestamp": 1781113290182,
+    "request": {
+      "id": "1781113290148",
+      "name": "New Request",
+      "method": "DELETE",
+      "url": "http://localhost:5000/api/v1/post/90785369-9a53-4529-9824-aa7375c75194",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzI3NCwiZXhwIjoxNzgxMTEzMzM0fQ.4XQfZxsSYBPkSd18Gzb2_NoysgMaPEdb_zpep0SEJDU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": ""
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzI3NCwiZXhwIjoxNzgxMTEzMzM0fQ.4XQfZxsSYBPkSd18Gzb2_NoysgMaPEdb_zpep0SEJDU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "83",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Wed, 10 Jun 2026 17:41:30 GMT",
+        "etag": "W/\"53-WwvSECaNIAAe+E9SVT4yVgBESIM\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Post deleted successfully\",\"id\":\"90785369-9a53-4529-9824-aa7375c75194\"}",
+      "time": 30,
+      "size": 83,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157802724",
+    "timestamp": 1781157802724,
+    "request": {
+      "id": "1781157802545",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "formDataFiles": [
+          {
+            "key": "username",
+            "value": "shadra",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "shadrairfn@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "mamama",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "373",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:03:22 GMT",
+        "etag": "W/\"175-8+N+jmHwlieWWBU+KSOue+E0Vxg\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU\"}}",
+      "time": 173,
+      "size": 373,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157811305",
+    "timestamp": 1781157811305,
+    "request": {
+      "id": "1781157811267",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "861",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:03:31 GMT",
+        "etag": "W/\"35d-ShUjhB9T18Q/is+hRRb6kdMNB4Y\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"Too many active concurrent transactions\",\"stack\":\"Error\\n    at Query.run (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\dialects\\\\mysql\\\\query.js:52:25)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\sequelize.js:315:28\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async MySQLQueryInterface.insert (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\dialects\\\\abstract\\\\query-interface.js:308:21)\\n    at async model.save (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\model.js:2490:35)\\n    at async Post.create (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\model.js:1362:12)\\n    at async file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/postController.js:18:18\"}",
+      "time": 33,
+      "size": 861,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157830260",
+    "timestamp": 1781157830260,
+    "request": {
+      "id": "1781157830226",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "407",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:03:50 GMT",
+        "etag": "W/\"197-hBz6P8zXa1YTNMOO71gzdoHysAQ\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"posts\":[{\"id\":\"5a77cb8b-da36-4ad3-8429-058e6f195f50\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:37:49.000Z\",\"updatedAt\":\"2026-06-10T16:37:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"7c4bcabf-d712-40e8-bf89-4e511d7953e4\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:34:05.000Z\",\"updatedAt\":\"2026-06-10T16:34:05.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}]}",
+      "time": 29,
+      "size": 407,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157858808",
+    "timestamp": 1781157858808,
+    "request": {
+      "id": "1781157854219",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "837",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:04:18 GMT",
+        "etag": "W/\"345-Vc5WTSRjCkhFkXAKF64kvAYcaW8\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"status\":\"error\",\"message\":\"read ECONNRESET\",\"stack\":\"Error\\n    at Query.run (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\dialects\\\\mysql\\\\query.js:52:25)\\n    at D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\sequelize.js:315:28\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\\n    at async MySQLQueryInterface.insert (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\dialects\\\\abstract\\\\query-interface.js:308:21)\\n    at async model.save (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\model.js:2490:35)\\n    at async Post.create (D:\\\\WEB DEVELOPMENT\\\\Nolimit_Intern\\\\node_modules\\\\sequelize\\\\lib\\\\model.js:1362:12)\\n    at async file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/postController.js:18:18\"}",
+      "time": 4586,
+      "size": 837,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157894610",
+    "timestamp": 1781157894610,
+    "request": {
+      "id": "1781157894598",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: fetch failed",
+      "time": 8,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157947999",
+    "timestamp": 1781157947999,
+    "request": {
+      "id": "1781157947952",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:05:47 GMT",
+        "etag": "W/\"105-HZ6WMdCWDcmrqRHWeN9vW/5tzvY\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk0NywiZXhwIjoxNzgxMTU4MDA3fQ.w6coFwT6-0IJbIUAoRYs-PNQMNgiX0q9unBwnqiPia0\"}",
+      "time": 42,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157954936",
+    "timestamp": 1781157954936,
+    "request": {
+      "id": "1781157954890",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk0NywiZXhwIjoxNzgxMTU4MDA3fQ.w6coFwT6-0IJbIUAoRYs-PNQMNgiX0q9unBwnqiPia0",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi mbg\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk0NywiZXhwIjoxNzgxMTU4MDA3fQ.w6coFwT6-0IJbIUAoRYs-PNQMNgiX0q9unBwnqiPia0"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "206",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:05:54 GMT",
+        "etag": "W/\"ce-+4e0/UOpyePSeGgNWeUag8mrQnY\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"ffc0c3f6-db3f-40d7-85c6-97500643e7fe\",\"content\":\"sama nasi mbg\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-11T06:05:54.903Z\",\"createdAt\":\"2026-06-11T06:05:54.903Z\"}}",
+      "time": 42,
+      "size": 206,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157963024",
+    "timestamp": 1781157963024,
+    "request": {
+      "id": "1781157962989",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk0NywiZXhwIjoxNzgxMTU4MDA3fQ.w6coFwT6-0IJbIUAoRYs-PNQMNgiX0q9unBwnqiPia0",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi pragib\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk0NywiZXhwIjoxNzgxMTU4MDA3fQ.w6coFwT6-0IJbIUAoRYs-PNQMNgiX0q9unBwnqiPia0"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "209",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:06:03 GMT",
+        "etag": "W/\"d1-GEKC5mr1CszcD2IWknGtWeA5qHM\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"6f131102-ab17-4cf2-8fcf-013c45970eb7\",\"content\":\"sama nasi pragib\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-11T06:06:02.999Z\",\"createdAt\":\"2026-06-11T06:06:02.999Z\"}}",
+      "time": 31,
+      "size": 209,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157966520",
+    "timestamp": 1781157966520,
+    "request": {
+      "id": "1781157966500",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:06:06 GMT",
+        "etag": "W/\"105-IOpqqWV6ZdG6AMt7nOuTlDcVzRY\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk2NiwiZXhwIjoxNzgxMTU4MDI2fQ.xQyPr3K_AY9UDIJwYGvUIn6a6fzoBZ-RdqiS8zh2SMk\"}",
+      "time": 17,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157972830",
+    "timestamp": 1781157972830,
+    "request": {
+      "id": "1781157972814",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk2NiwiZXhwIjoxNzgxMTU4MDI2fQ.xQyPr3K_AY9UDIJwYGvUIn6a6fzoBZ-RdqiS8zh2SMk",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk2NiwiZXhwIjoxNzgxMTU4MDI2fQ.xQyPr3K_AY9UDIJwYGvUIn6a6fzoBZ-RdqiS8zh2SMk"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "806",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:06:12 GMT",
+        "etag": "W/\"326-pCL1L9WhhY4gRc7T1huhkgdPGng\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"posts\":[{\"id\":\"5a77cb8b-da36-4ad3-8429-058e6f195f50\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:37:49.000Z\",\"updatedAt\":\"2026-06-10T16:37:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"6f131102-ab17-4cf2-8fcf-013c45970eb7\",\"content\":\"sama nasi pragib\",\"createdAt\":\"2026-06-11T06:06:02.000Z\",\"updatedAt\":\"2026-06-11T06:06:02.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"7c4bcabf-d712-40e8-bf89-4e511d7953e4\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:34:05.000Z\",\"updatedAt\":\"2026-06-10T16:34:05.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"ffc0c3f6-db3f-40d7-85c6-97500643e7fe\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-11T06:05:54.000Z\",\"updatedAt\":\"2026-06-11T06:05:54.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}]}",
+      "time": 13,
+      "size": 806,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157988977",
+    "timestamp": 1781157988977,
+    "request": {
+      "id": "1781157988954",
+      "name": "New Request",
+      "method": "DELETE",
+      "url": "http://localhost:5000/api/v1/post/6f131102-ab17-4cf2-8fcf-013c45970eb7",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzI3NCwiZXhwIjoxNzgxMTEzMzM0fQ.4XQfZxsSYBPkSd18Gzb2_NoysgMaPEdb_zpep0SEJDU",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": ""
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTExMzI3NCwiZXhwIjoxNzgxMTEzMzM0fQ.4XQfZxsSYBPkSd18Gzb2_NoysgMaPEdb_zpep0SEJDU"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:06:28 GMT",
+        "etag": "W/\"105-yqUXK3qiRgBjYf35Cxfp+aohwFw\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk4OCwiZXhwIjoxNzgxMTU4MDQ4fQ.mRuuLSvJEo-c8Z5BJ2sgS-X-XZU4yRhvxaqbsjzZHx8\"}",
+      "time": 19,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157995114",
+    "timestamp": 1781157995114,
+    "request": {
+      "id": "1781157995081",
+      "name": "New Request",
+      "method": "DELETE",
+      "url": "http://localhost:5000/api/v1/post/6f131102-ab17-4cf2-8fcf-013c45970eb7",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk4OCwiZXhwIjoxNzgxMTU4MDQ4fQ.mRuuLSvJEo-c8Z5BJ2sgS-X-XZU4yRhvxaqbsjzZHx8",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": ""
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk4OCwiZXhwIjoxNzgxMTU4MDQ4fQ.mRuuLSvJEo-c8Z5BJ2sgS-X-XZU4yRhvxaqbsjzZHx8"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "83",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:06:35 GMT",
+        "etag": "W/\"53-+53v6cx+5XumNZW7cPDjHt4ML+k\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"message\":\"Post deleted successfully\",\"id\":\"6f131102-ab17-4cf2-8fcf-013c45970eb7\"}",
+      "time": 29,
+      "size": 83,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781157997504",
+    "timestamp": 1781157997504,
+    "request": {
+      "id": "1781157997489",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk2NiwiZXhwIjoxNzgxMTU4MDI2fQ.xQyPr3K_AY9UDIJwYGvUIn6a6fzoBZ-RdqiS8zh2SMk",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk2NiwiZXhwIjoxNzgxMTU4MDI2fQ.xQyPr3K_AY9UDIJwYGvUIn6a6fzoBZ-RdqiS8zh2SMk"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "605",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:06:37 GMT",
+        "etag": "W/\"25d-d7IrHg+LU/hWlrhJ8jZlWZU/X2I\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"posts\":[{\"id\":\"5a77cb8b-da36-4ad3-8429-058e6f195f50\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:37:49.000Z\",\"updatedAt\":\"2026-06-10T16:37:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"7c4bcabf-d712-40e8-bf89-4e511d7953e4\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:34:05.000Z\",\"updatedAt\":\"2026-06-10T16:34:05.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"ffc0c3f6-db3f-40d7-85c6-97500643e7fe\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-11T06:05:54.000Z\",\"updatedAt\":\"2026-06-11T06:05:54.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}]}",
+      "time": 11,
+      "size": 605,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781158034889",
+    "timestamp": 1781158034889,
+    "request": {
+      "id": "1781158034860",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk0NywiZXhwIjoxNzgxMTU4MDA3fQ.w6coFwT6-0IJbIUAoRYs-PNQMNgiX0q9unBwnqiPia0",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"sama nasi pragib\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk0NywiZXhwIjoxNzgxMTU4MDA3fQ.w6coFwT6-0IJbIUAoRYs-PNQMNgiX0q9unBwnqiPia0"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:07:14 GMT",
+        "etag": "W/\"105-lTJZjG/kUzJFJsTAeKC7neX3DpI\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"success\":true,\"message\":\"Token refreshed successfully\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1ODAzNCwiZXhwIjoxNzgxMTU4MDk0fQ.6VsQ_TNXy4MUkBJn2Q-QYJltlb_tXezXE0kVISKqULc\"}",
+      "time": 25,
+      "size": 261,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1781158047143",
+    "timestamp": 1781158047143,
+    "request": {
+      "id": "1781158047122",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/post/create",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1ODAzNCwiZXhwIjoxNzgxMTU4MDk0fQ.6VsQ_TNXy4MUkBJn2Q-QYJltlb_tXezXE0kVISKqULc",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"makan siang guys\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1ODAzNCwiZXhwIjoxNzgxMTU4MDk0fQ.6VsQ_TNXy4MUkBJn2Q-QYJltlb_tXezXE0kVISKqULc"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "209",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 11 Jun 2026 06:07:27 GMT",
+        "etag": "W/\"d1-xmQFl18vmlHsIxbxoxCecB9ThQE\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"post\":{\"id\":\"ee351d3d-3fc9-4a52-b479-586b2cc8e346\",\"content\":\"makan siang guys\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-11T06:07:27.132Z\",\"createdAt\":\"2026-06-11T06:07:27.132Z\"}}",
+      "time": 17,
+      "size": 209,
+      "cookies": []
+    }
+  }
+]

@@ -24,22 +24,33 @@ const createPost = asyncHandler(async (req, res) => {
 });
 
 const getAllPost = asyncHandler(async (req, res) => {
-    const user = req.user;
-    console.log("user", user);
-    const posts = await Post.findAll({
-        where: {
-            userId: user.id,
-        },
-    });
+    const posts = await Post.findAll({});
     return res.status(200).json({ posts });
+});
+
+const getPostById = asyncHandler(async (req, res) => {
+    const { id } = req.params;
+    if (!id) throw new apiError(400, "All fields are required");
+    const post = await Post.findOne({ where: { id: id } });
+    return res.status(200).json({ post });
 });
 
 const updatePost = asyncHandler(async (req, res) => {
     const { id } = req.params;
-    const { content } = req.body || {};
+    const { content } = req.body;
+    const user = req.user;
     if (!id || !content) throw new apiError(400, "All fields are required");
 
-    const post = await Post.update({
+    const authorId = await Post.findOne({
+        where: {
+            id: id,
+            userId: user.id,
+        },
+    });
+
+    if (authorId == null) throw new apiError(400, "You are not authorized to update this post");
+
+    await Post.update({
         content: content,
     }, { where: { id: id } });
 
@@ -51,9 +62,19 @@ const updatePost = asyncHandler(async (req, res) => {
 
 const deletePost = asyncHandler(async (req, res) => {
     const { id } = req.params;
+    const user = req.user;
     if (!id) throw new apiError(400, "All fields are required");
 
-    const post = await Post.destroy({ where: { id: id } });
+    const authorId = await Post.findOne({
+        where: {
+            id: id,
+            userId: user.id,
+        },
+    });
+
+    if (authorId == null) throw new apiError(400, "You are not authorized to delete this post");
+
+    await Post.destroy({ where: { id: id } });
 
     return res.status(200).json({
         message: "Post deleted successfully",
@@ -61,4 +82,4 @@ const deletePost = asyncHandler(async (req, res) => {
     });
 })
 
-export { createPost, getAllPost, updatePost, deletePost }
+export { createPost, getAllPost, getPostById, updatePost, deletePost }

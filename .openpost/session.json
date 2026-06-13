@@ -5,7 +5,7 @@
       "tabKind": "request",
       "name": "New Request",
       "method": "POST",
-      "url": "http://localhost:5000/api/v1/user/login",
+      "url": "http://localhost:5000/api/v1/user/register",
       "params": [],
       "headers": [
         {
@@ -21,7 +21,7 @@
       ],
       "body": {
         "type": "raw",
-        "raw": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+        "raw": "{\n\"username\":\"mehdi\",\n\"email\":\"shadrairfan@gmail.com\",\n\"password\":\"mamaapel\"\n}",
         "formDataFiles": [
           {
             "key": "username",
@@ -61,29 +61,29 @@
       "certificateConfig": null,
       "inheritCertificate": false,
       "response": {
-        "status": 200,
-        "statusText": "OK",
+        "status": 201,
+        "statusText": "Created",
         "headers": {
           "access-control-allow-origin": "*",
           "connection": "keep-alive",
-          "content-length": "373",
+          "content-length": "579",
           "content-type": "application/json; charset=utf-8",
-          "date": "Thu, 11 Jun 2026 06:03:22 GMT",
-          "etag": "W/\"175-8+N+jmHwlieWWBU+KSOue+E0Vxg\"",
+          "date": "Sat, 13 Jun 2026 06:52:14 GMT",
+          "etag": "W/\"243-LjjPWfrlOVpJWTVo64T5IjRLSVw\"",
           "keep-alive": "timeout=5",
           "x-powered-by": "Express"
         },
-        "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"username\":\"shadra\",\"email\":\"shadrairfn@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1NzgwMiwiZXhwIjoxNzgxMTU3ODYyfQ.Mj2Emp_GNUWUhXUe74T4FxbS-HX_bJB2D3BYaQkr8pU\"}}",
-        "time": 173,
-        "size": 373,
+        "body": "{\"success\":true,\"message\":\"User registered successfully\",\"data\":{\"user\":{\"id\":\"19f08736-d00b-43d6-8979-6cf902d6a76c\",\"username\":\"mehdi\",\"email\":\"shadrairfan@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE5ZjA4NzM2LWQwMGItNDNkNi04OTc5LTZjZjkwMmQ2YTc2YyIsImlhdCI6MTc4MTMzMzUzNCwiZXhwIjoxNzgxMzM0NDM0fQ.m7sefi4y12mmJDNdb7bEjIsPcw_8D-RvdZ2UBmJRp6I\",\"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE5ZjA4NzM2LWQwMGItNDNkNi04OTc5LTZjZjkwMmQ2YTc2YyIsImlhdCI6MTc4MTMzMzUzNCwiZXhwIjoxNzgxOTM4MzM0fQ.r-ZGa7Xw_BPdly2nlLLy6wkNPFboEpn4T19EE7Dz3YU\"}}",
+        "time": 226,
+        "size": 579,
         "actualRequest": {
           "method": "POST",
-          "url": "http://localhost:5000/api/v1/user/login",
+          "url": "http://localhost:5000/api/v1/user/register",
           "headers": {
             "Accept": "application/json",
             "Content-Type": "application/json"
           },
-          "body": "{\n\"email\":\"shadrairfn@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+          "body": "{\n\"username\":\"mehdi\",\n\"email\":\"shadrairfan@gmail.com\",\n\"password\":\"mamaapel\"\n}",
           "protocol": "HTTP/1.1",
           "certificateNames": "System Trust Store"
         },
@@ -99,7 +99,7 @@
           },
           {
             "name": "HTTP Request",
-            "duration": 173
+            "duration": 226
           },
           {
             "name": "Post-processing",
@@ -124,6 +124,111 @@
       "responseTab": "body"
     },
     {
+      "id": "1781333538232s540",
+      "tabKind": "request",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:5000/api/v1/user/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"email\":\"shadrairfan@gmail.com\",\n\"password\":\"mamaapel\"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true,
+      "inheritScripts": false,
+      "preRequestScript": "",
+      "testScript": "",
+      "testRules": [],
+      "setVariables": [],
+      "activeTab": "body",
+      "responseTab": "body",
+      "sourceRequestId": null,
+      "sourceCollectionId": null,
+      "sourceFolderPath": null,
+      "sourceScope": "local",
+      "proxyId": null,
+      "certificateConfig": null,
+      "inheritCertificate": false,
+      "response": {
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "access-control-allow-origin": "*",
+          "connection": "keep-alive",
+          "content-length": "373",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Sat, 13 Jun 2026 07:12:08 GMT",
+          "etag": "W/\"175-WwUUj4yj+/Tbyi330/e/Yb1yow8\"",
+          "keep-alive": "timeout=5",
+          "x-powered-by": "Express"
+        },
+        "body": "{\"success\":true,\"message\":\"User logged in successfully\",\"data\":{\"user\":{\"id\":\"19f08736-d00b-43d6-8979-6cf902d6a76c\",\"username\":\"mehdi\",\"email\":\"shadrairfan@gmail.com\"},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE5ZjA4NzM2LWQwMGItNDNkNi04OTc5LTZjZjkwMmQ2YTc2YyIsImlhdCI6MTc4MTMzNDcyOCwiZXhwIjoxNzgxMzM1NjI4fQ.UewBZEiD-1dVijE1BDSkWjod_EqfLNFB4jzTTDu5CF4\"}}",
+        "time": 116,
+        "size": 373,
+        "actualRequest": {
+          "method": "POST",
+          "url": "http://localhost:5000/api/v1/user/login",
+          "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+          },
+          "body": "{\n\"email\":\"shadrairfan@gmail.com\",\n\"password\":\"mamaapel\"\n}",
+          "protocol": "HTTP/1.1",
+          "certificateNames": "System Trust Store"
+        },
+        "cookies": [],
+        "timingPhases": [
+          {
+            "name": "Environment",
+            "duration": 1
+          },
+          {
+            "name": "Auth",
+            "duration": 0
+          },
+          {
+            "name": "HTTP Request",
+            "duration": 116
+          },
+          {
+            "name": "Post-processing",
+            "duration": 0
+          }
+        ]
+      },
+      "error": null,
+      "loading": false,
+      "wsConnected": false,
+      "wsUrl": null,
+      "wsMessages": [],
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "grpcMessages": [],
+      "grpcConfig": null,
+      "groupId": null,
+      "mcpDescription": "",
+      "mcpInputSchema": "",
+      "collectionId": null,
+      "folderId": null,
+      "folderPath": null,
+      "editorScope": "local"
+    },
+    {
       "id": "1781108630023152n",
       "tabKind": "request",
       "name": "New Request",
@@ -144,12 +249,12 @@
       ],
       "body": {
         "type": "raw",
-        "raw": "{\n\"content\":\"makan siang guys\"\n}"
+        "raw": "{\n\"content\":\"makan apayuk guys\"\n}"
       },
       "auth": {
         "type": "bearer",
         "bearer": {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1ODAzNCwiZXhwIjoxNzgxMTU4MDk0fQ.6VsQ_TNXy4MUkBJn2Q-QYJltlb_tXezXE0kVISKqULc"
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTMzNDM5MCwiZXhwIjoxNzgxMzM1MjkwfQ.NkYQ-5AKCoORNXTxZfryzJLZRKjyQl4D8WQLLfS3UtQ"
         }
       },
       "inheritAuth": true,
@@ -172,25 +277,25 @@
         "headers": {
           "access-control-allow-origin": "*",
           "connection": "keep-alive",
-          "content-length": "209",
+          "content-length": "210",
           "content-type": "application/json; charset=utf-8",
-          "date": "Thu, 11 Jun 2026 06:07:27 GMT",
-          "etag": "W/\"d1-xmQFl18vmlHsIxbxoxCecB9ThQE\"",
+          "date": "Sat, 13 Jun 2026 07:08:50 GMT",
+          "etag": "W/\"d2-G/wFrU3VR3u7wLVCVfVr2sUPJcA\"",
           "keep-alive": "timeout=5",
           "x-powered-by": "Express"
         },
-        "body": "{\"post\":{\"id\":\"ee351d3d-3fc9-4a52-b479-586b2cc8e346\",\"content\":\"makan siang guys\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-11T06:07:27.132Z\",\"createdAt\":\"2026-06-11T06:07:27.132Z\"}}",
-        "time": 17,
-        "size": 209,
+        "body": "{\"post\":{\"id\":\"06213255-8f50-413f-8df9-f247a74d548c\",\"content\":\"makan apayuk guys\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\",\"updatedAt\":\"2026-06-13T07:08:50.176Z\",\"createdAt\":\"2026-06-13T07:08:50.176Z\"}}",
+        "time": 31,
+        "size": 210,
         "actualRequest": {
           "method": "POST",
           "url": "http://localhost:5000/api/v1/post/create",
           "headers": {
             "Accept": "application/json",
             "Content-Type": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1ODAzNCwiZXhwIjoxNzgxMTU4MDk0fQ.6VsQ_TNXy4MUkBJn2Q-QYJltlb_tXezXE0kVISKqULc"
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTMzNDM5MCwiZXhwIjoxNzgxMzM1MjkwfQ.NkYQ-5AKCoORNXTxZfryzJLZRKjyQl4D8WQLLfS3UtQ"
           },
-          "body": "{\n\"content\":\"makan siang guys\"\n}",
+          "body": "{\n\"content\":\"makan apayuk guys\"\n}",
           "protocol": "HTTP/1.1",
           "certificateNames": "System Trust Store"
         },
@@ -206,7 +311,7 @@
           },
           {
             "name": "HTTP Request",
-            "duration": 17
+            "duration": 31
           },
           {
             "name": "Post-processing",
@@ -255,7 +360,7 @@
       "auth": {
         "type": "bearer",
         "bearer": {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk2NiwiZXhwIjoxNzgxMTU4MDI2fQ.xQyPr3K_AY9UDIJwYGvUIn6a6fzoBZ-RdqiS8zh2SMk"
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE5ZjA4NzM2LWQwMGItNDNkNi04OTc5LTZjZjkwMmQ2YTc2YyIsImlhdCI6MTc4MTMzMzU5MiwiZXhwIjoxNzgxMzM0NDkyfQ.36BPMwFwPbLiD7kbPgfVkCeetgFBAx4Fm2LHURMcFc4"
         }
       },
       "inheritAuth": true,
@@ -278,23 +383,23 @@
         "headers": {
           "access-control-allow-origin": "*",
           "connection": "keep-alive",
-          "content-length": "605",
+          "content-length": "412",
           "content-type": "application/json; charset=utf-8",
-          "date": "Thu, 11 Jun 2026 06:06:37 GMT",
-          "etag": "W/\"25d-d7IrHg+LU/hWlrhJ8jZlWZU/X2I\"",
+          "date": "Sat, 13 Jun 2026 06:54:19 GMT",
+          "etag": "W/\"19c-PhK83oE8I6lzgEGhYFIoRj6UTaE\"",
           "keep-alive": "timeout=5",
           "x-powered-by": "Express"
         },
-        "body": "{\"posts\":[{\"id\":\"5a77cb8b-da36-4ad3-8429-058e6f195f50\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:37:49.000Z\",\"updatedAt\":\"2026-06-10T16:37:49.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"7c4bcabf-d712-40e8-bf89-4e511d7953e4\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-10T16:34:05.000Z\",\"updatedAt\":\"2026-06-10T16:34:05.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"},{\"id\":\"ffc0c3f6-db3f-40d7-85c6-97500643e7fe\",\"content\":\"sama nasi mbg\",\"createdAt\":\"2026-06-11T06:05:54.000Z\",\"updatedAt\":\"2026-06-11T06:05:54.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}]}",
-        "time": 11,
-        "size": 605,
+        "body": "{\"posts\":[{\"id\":\"4e89d01f-5145-45d8-b55d-e08a9a7dfe3b\",\"content\":\"makan siang guys\",\"createdAt\":\"2026-06-13T06:53:21.000Z\",\"updatedAt\":\"2026-06-13T06:53:21.000Z\",\"userId\":\"19f08736-d00b-43d6-8979-6cf902d6a76c\"},{\"id\":\"ee351d3d-3fc9-4a52-b479-586b2cc8e346\",\"content\":\"makan sore guys\",\"createdAt\":\"2026-06-11T06:07:27.000Z\",\"updatedAt\":\"2026-06-13T06:49:01.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}]}",
+        "time": 27,
+        "size": 412,
         "actualRequest": {
           "method": "GET",
           "url": "http://localhost:5000/api/v1/post",
           "headers": {
             "Accept": "application/json",
             "Content-Type": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk2NiwiZXhwIjoxNzgxMTU4MDI2fQ.xQyPr3K_AY9UDIJwYGvUIn6a6fzoBZ-RdqiS8zh2SMk"
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE5ZjA4NzM2LWQwMGItNDNkNi04OTc5LTZjZjkwMmQ2YTc2YyIsImlhdCI6MTc4MTMzMzU5MiwiZXhwIjoxNzgxMzM0NDkyfQ.36BPMwFwPbLiD7kbPgfVkCeetgFBAx4Fm2LHURMcFc4"
           },
           "body": null,
           "protocol": "HTTP/1.1",
@@ -312,7 +417,7 @@
           },
           {
             "name": "HTTP Request",
-            "duration": 11
+            "duration": 27
           },
           {
             "name": "Post-processing",
@@ -341,7 +446,7 @@
       "tabKind": "request",
       "name": "New Request",
       "method": "DELETE",
-      "url": "http://localhost:5000/api/v1/post/6f131102-ab17-4cf2-8fcf-013c45970eb7",
+      "url": "http://localhost:5000/api/v1/post/06213255-8f50-413f-8df9-f247a74d548c",
       "params": [],
       "headers": [
         {
@@ -362,7 +467,7 @@
       "auth": {
         "type": "bearer",
         "bearer": {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk4OCwiZXhwIjoxNzgxMTU4MDQ4fQ.mRuuLSvJEo-c8Z5BJ2sgS-X-XZU4yRhvxaqbsjzZHx8"
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTMzNDM5MCwiZXhwIjoxNzgxMzM1MjkwfQ.NkYQ-5AKCoORNXTxZfryzJLZRKjyQl4D8WQLLfS3UtQ"
         }
       },
       "inheritAuth": true,
@@ -387,21 +492,21 @@
           "connection": "keep-alive",
           "content-length": "83",
           "content-type": "application/json; charset=utf-8",
-          "date": "Thu, 11 Jun 2026 06:06:35 GMT",
-          "etag": "W/\"53-+53v6cx+5XumNZW7cPDjHt4ML+k\"",
+          "date": "Sat, 13 Jun 2026 07:11:24 GMT",
+          "etag": "W/\"53-+atBM50fWGzGNcZunmxIh3i1mAI\"",
           "keep-alive": "timeout=5",
           "x-powered-by": "Express"
         },
-        "body": "{\"message\":\"Post deleted successfully\",\"id\":\"6f131102-ab17-4cf2-8fcf-013c45970eb7\"}",
-        "time": 29,
+        "body": "{\"message\":\"Post deleted successfully\",\"id\":\"06213255-8f50-413f-8df9-f247a74d548c\"}",
+        "time": 47,
         "size": 83,
         "actualRequest": {
           "method": "DELETE",
-          "url": "http://localhost:5000/api/v1/post/6f131102-ab17-4cf2-8fcf-013c45970eb7",
+          "url": "http://localhost:5000/api/v1/post/06213255-8f50-413f-8df9-f247a74d548c",
           "headers": {
             "Accept": "application/json",
             "Content-Type": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTE1Nzk4OCwiZXhwIjoxNzgxMTU4MDQ4fQ.mRuuLSvJEo-c8Z5BJ2sgS-X-XZU4yRhvxaqbsjzZHx8"
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYxYjkzY2Q1LTNmYjAtNGQwOS1hODA0LTVkMmQ4NjUyZjY0YSIsImlhdCI6MTc4MTMzNDM5MCwiZXhwIjoxNzgxMzM1MjkwfQ.NkYQ-5AKCoORNXTxZfryzJLZRKjyQl4D8WQLLfS3UtQ"
           },
           "body": "",
           "protocol": "HTTP/1.1",
@@ -419,7 +524,7 @@
           },
           {
             "name": "HTTP Request",
-            "duration": 29
+            "duration": 47
           },
           {
             "name": "Post-processing",
@@ -442,10 +547,223 @@
       "grpcConnected": false,
       "grpcStreaming": false,
       "responseTab": "body"
+    },
+    {
+      "id": "178133290075315c5",
+      "tabKind": "request",
+      "name": "New Request",
+      "method": "PATCH",
+      "url": "http://localhost:5000/api/v1/post/977997d9-44f3-4387-910d-fead661b4479",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n\"content\":\"makan asik guys\"\n}"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE5ZjA4NzM2LWQwMGItNDNkNi04OTc5LTZjZjkwMmQ2YTc2YyIsImlhdCI6MTc4MTMzNDcyOCwiZXhwIjoxNzgxMzM1NjI4fQ.UewBZEiD-1dVijE1BDSkWjod_EqfLNFB4jzTTDu5CF4"
+        }
+      },
+      "inheritAuth": true,
+      "inheritScripts": false,
+      "preRequestScript": "",
+      "testScript": "",
+      "testRules": [],
+      "setVariables": [],
+      "activeTab": "body",
+      "responseTab": "body",
+      "sourceRequestId": null,
+      "sourceCollectionId": null,
+      "sourceFolderPath": null,
+      "sourceScope": "local",
+      "proxyId": null,
+      "certificateConfig": null,
+      "inheritCertificate": false,
+      "response": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "headers": {
+          "access-control-allow-origin": "*",
+          "connection": "keep-alive",
+          "content-length": "309",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Sat, 13 Jun 2026 07:12:30 GMT",
+          "etag": "W/\"135-OxNmd/VPZzmtNocgKhjBF8A4tEM\"",
+          "keep-alive": "timeout=5",
+          "x-powered-by": "Express"
+        },
+        "body": "{\"status\":\"error\",\"message\":\"You are not authorized to update this post\",\"stack\":\"Error: You are not authorized to update this post\\n    at file:///D:/WEB%20DEVELOPMENT/Nolimit_Intern/src/controllers/postController.js:51:33\\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\"}",
+        "time": 18,
+        "size": 309,
+        "actualRequest": {
+          "method": "PATCH",
+          "url": "http://localhost:5000/api/v1/post/977997d9-44f3-4387-910d-fead661b4479",
+          "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE5ZjA4NzM2LWQwMGItNDNkNi04OTc5LTZjZjkwMmQ2YTc2YyIsImlhdCI6MTc4MTMzNDcyOCwiZXhwIjoxNzgxMzM1NjI4fQ.UewBZEiD-1dVijE1BDSkWjod_EqfLNFB4jzTTDu5CF4"
+          },
+          "body": "{\n\"content\":\"makan asik guys\"\n}",
+          "protocol": "HTTP/1.1",
+          "certificateNames": "System Trust Store"
+        },
+        "cookies": [],
+        "timingPhases": [
+          {
+            "name": "Environment",
+            "duration": 1
+          },
+          {
+            "name": "Auth",
+            "duration": 0
+          },
+          {
+            "name": "HTTP Request",
+            "duration": 18
+          },
+          {
+            "name": "Post-processing",
+            "duration": 0
+          }
+        ]
+      },
+      "error": null,
+      "loading": false,
+      "wsConnected": false,
+      "wsUrl": null,
+      "wsMessages": [],
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "grpcMessages": [],
+      "grpcConfig": null,
+      "groupId": null,
+      "mcpDescription": "",
+      "mcpInputSchema": "",
+      "collectionId": null,
+      "folderId": null,
+      "folderPath": null,
+      "editorScope": "local"
+    },
+    {
+      "id": "1781333461973e7mz",
+      "tabKind": "request",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/api/v1/post/ee351d3d-3fc9-4a52-b479-586b2cc8e346",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true,
+      "inheritScripts": false,
+      "preRequestScript": "",
+      "testScript": "",
+      "testRules": [],
+      "setVariables": [],
+      "activeTab": "headers",
+      "responseTab": "body",
+      "sourceRequestId": null,
+      "sourceCollectionId": null,
+      "sourceFolderPath": null,
+      "sourceScope": "local",
+      "proxyId": null,
+      "certificateConfig": null,
+      "inheritCertificate": false,
+      "response": {
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "access-control-allow-origin": "*",
+          "connection": "keep-alive",
+          "content-length": "208",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Sat, 13 Jun 2026 06:51:05 GMT",
+          "etag": "W/\"d0-0OADGrh3DKuybX8puxbE9x+mUWY\"",
+          "keep-alive": "timeout=5",
+          "x-powered-by": "Express"
+        },
+        "body": "{\"post\":{\"id\":\"ee351d3d-3fc9-4a52-b479-586b2cc8e346\",\"content\":\"makan sore guys\",\"createdAt\":\"2026-06-11T06:07:27.000Z\",\"updatedAt\":\"2026-06-13T06:49:01.000Z\",\"userId\":\"f1b93cd5-3fb0-4d09-a804-5d2d8652f64a\"}}",
+        "time": 28,
+        "size": 208,
+        "actualRequest": {
+          "method": "GET",
+          "url": "http://localhost:5000/api/v1/post/ee351d3d-3fc9-4a52-b479-586b2cc8e346",
+          "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+          },
+          "body": null,
+          "protocol": "HTTP/1.1",
+          "certificateNames": "System Trust Store"
+        },
+        "cookies": [],
+        "timingPhases": [
+          {
+            "name": "Environment",
+            "duration": 2
+          },
+          {
+            "name": "Auth",
+            "duration": 0
+          },
+          {
+            "name": "HTTP Request",
+            "duration": 28
+          },
+          {
+            "name": "Post-processing",
+            "duration": 0
+          }
+        ]
+      },
+      "error": null,
+      "loading": false,
+      "wsConnected": false,
+      "wsUrl": null,
+      "wsMessages": [],
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "grpcMessages": [],
+      "grpcConfig": null,
+      "groupId": null,
+      "mcpDescription": "",
+      "mcpInputSchema": "",
+      "collectionId": null,
+      "folderId": null,
+      "folderPath": null,
+      "editorScope": "local"
     }
   ],
   "groups": [],
-  "activeTabId": "1781108630023152n",
+  "activeTabId": "178133290075315c5",
   "currentView": "requests",
   "sidebarTab": "collections",
   "sidebarCollapsed": false,
